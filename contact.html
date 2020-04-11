@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARCHITECT</title>
+    <link href='http://fonts.googleapis.com/css?family=Cabin|Niconne' rel='stylesheet' type='text/css'>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="wrapper">
+	<header>
+		Welcome to my website
+	</header>
+
+	<nav>
+		<ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="product.html">Product</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="learn.html">Learn</a></li>
+            <li><a href="contact.html">Contact</a></li> 
+		</ul>
+	</nav>
+	<div class="content">
+		<article>
+		<h2> Order Form</h2>
+		<p>Fill out the form below to place an order  </p>
+		<form>
+			<fieldset class="contact">
+				<legend>Your contact information</legend>
+				<label for="name">Your name</label>
+					<input type="text" id="name" autofocus>
+				<label for="phone">Phone number</label>
+					<input type="tel" id="phone" placeholder="Don't forget the area code!">
+				<label for="email">Email</label>
+					<input type="email" id="email">
+				<label for="date">Requested pickup date</label>
+					<input type="date" id="date">
+			</fieldset>
+			<fieldset class="pie">
+				<legend>About your design</legend>
+				<label for="qty" class="labeltext">How many design would you like?</label>
+					<input type="number" id="qty" min="1" max="10">
+				<p class="labeltext">What type of design ?</p>
+				<label>
+					<input type="radio" name="bottom" value="classic"> Classic
+				</label>
+				<label>
+					<input type="radio" name="bottom" value="gfclassic"> Free Classic
+				</label>
+				<p class="labeltext">What type of top design?</p>
+				<label>
+					<input type="radio" name="top" value="full"> Classic Full 
+				</label>
+			
+			
+				
+				<label>
+					<input type="radio" name="top" value="none"> No top 
+				</label>
+
+				<label for="filling" class="labeltext">What type of filling?</label>
+				<input name="filling" list="filling">
+					<datalist id="filling">
+						<label>Or select from the list</label>
+						<select name="filling">
+							<option selected>Select one...</option>
+							<option value="apartment">apartment</option>
+							<option value="yard">yard</option>
+							<option value="clasicc">clasicc</option>
+						
+						</select>
+					</datalist>
+				<label>
+					<input id="sugarfree" type="checkbox" value="sugarfree">
+					Make the filling 
+				</label> 
+				<label class="labeltext">Special requests:
+					<textarea id="comments" placeholder="Any additional instructions for us?"></textarea>
+				</label>
+				<button type="submit">Submit</button>
+			</fieldset>
+		</form>
+	</article>
+		<div class="aside">
+			<aside class="sidebar-primary">
+				<h3>Testimonials</h3>
+				<blockquote>
+					<p>When we got engaged, Michael and I knew we didn't want to usual wedding cake. Our guests were thrilled to have something different. Who knew pies could be so elegant? </p>
+					<cite>Madeleine Walker</cite>
+				</blockquote>
+			</aside>
+			<aside class="sidebar-secondary">
+				<h3>Pie of the Month</h3>
+				<img src="gallery/background3.jpg" alt="contact.">
+			</aside>
+		</div>
+	</div>
+	<footer>
+		<p>Copyright 2020></p>
+		<p>
+			<a href="http://www.twitter.com" target="_blank"><img src="img/twitter1.png" alt="Twitter."></a>
+			<a href="http://www.pinterest.com" target="_blank"><img src="img/pin2.png" alt="Pinterest."></a>
+			<a href="http://www.tumblr.com" target="_blank"><img src="img/tumblr3.png" alt="Tumblr."></a>
+			<a href="http://www.instagram.com" target="_blank"><img src="img/insta4.png" alt="Instagram."></a>
+			<a href="http://www.facebook.com" target="_blank"><img src="img/fb5.png" alt="Facebook."></a>
+		</p>
+	</footer>
+</div>
+</body>
+</html>

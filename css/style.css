@@ -1,0 +1,14 @@
+html {
+    box-sizing: border-box;
+}
+*,*:before,*:after {
+box-sizing: inherit;
+}
+
+body {
+    font-family: "Cabin", Arial, Geneva, sans-serif;
+    /* background-image: url(../gallery/backgrond5.jfif) ; */
+    background-color: lightblue;
+    margin: 0px;
+    padding: 0px;
+}
